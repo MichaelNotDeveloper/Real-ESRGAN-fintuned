@@ -19,6 +19,7 @@ datasets:
     type: RealESRGANPairedDataset
     dataroot_gt: datasets/GT
     dataroot_lq: datasets/LQ
+    filename_tmpl: '{}'
     # meta_info: datasets/DF2K/meta_info/meta_info_DIV2K_sub_pair.txt
     io_backend:
       type: disk
