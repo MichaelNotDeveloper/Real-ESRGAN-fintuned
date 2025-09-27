@@ -34,6 +34,7 @@ datasets:
     batch_size_per_gpu: 4
     dataset_enlarge_ratio: 1
     prefetch_mode: ~
+    pin_memory: false
 
   # Uncomment these for validation
   # val:
@@ -50,7 +51,7 @@ network_g:
   num_in_ch: 3
   num_out_ch: 3
   num_feat: 64
-  num_block: 23
+  num_block: 16
   num_grow_ch: 32
 
 network_d:
