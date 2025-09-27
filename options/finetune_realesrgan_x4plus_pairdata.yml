@@ -54,7 +54,7 @@ network_g:
   num_block: 23
   num_grow_ch: 32
   scale: 1
-
+  strict_load_g: false
 network_d:
   type: UNetDiscriminatorSN
   num_in_ch: 3
