@@ -17,8 +17,8 @@ datasets:
   train:
     name: DIV2K
     type: RealESRGANPairedDataset
-    dataroot_gt: datasets/GT
-    dataroot_lq: datasets/LQ
+    dataroot_gt: /kaggle/working/Real-ESRGAN-fintuned/realesrgan/data/datasets/GT
+    dataroot_lq: /kaggle/working/Real-ESRGAN-fintuned/realesrgan/data/datasets/LQ
     filename_tmpl: '{}'
     # meta_info: datasets/DF2K/meta_info/meta_info_DIV2K_sub_pair.txt
     io_backend:
